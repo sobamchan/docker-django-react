@@ -7,4 +7,5 @@
 ```bash
 $ npm install
 $ docker-compose up
+$ npm run watch
 ```
