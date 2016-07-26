@@ -1,9 +1,12 @@
 import React from 'react';
 import {render} from 'react-dom';
+import {Happy} from './components/happy_birthday.jsx';
 
 class App extends React.Component {
   render () {
-    return <p> hello React!</p>;
+    return (
+      <Happy name={'やっさん'} />
+    );
   }
 }
 
